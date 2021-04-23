@@ -829,6 +829,8 @@ Shader "Relativity/Lit/Standard" {
 
 		Subshader {
 
+			Tags{ "RenderType" = "Transparent" "Queue" = "Transparent" }
+
 			Pass{
 				//Shader properties, for things such as transparency
 				ZWrite On
